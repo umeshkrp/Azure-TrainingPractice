@@ -51,7 +51,7 @@
 		"parameters": {
 			"timeinterval": {
 				"type": "int",
-				"defaultValue": 10
+				"defaultValue": 3
 			}
 		},
 		"variables": {
