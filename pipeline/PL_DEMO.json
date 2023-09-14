@@ -8,7 +8,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
-					"waitTimeInSeconds": 1
+					"waitTimeInSeconds": {
+						"value": "@variables('timeadd')",
+						"type": "Expression"
+					}
 				}
 			},
 			{
@@ -39,6 +42,18 @@
 				}
 			}
 		],
+		"parameters": {
+			"timeinterval": {
+				"type": "int",
+				"defaultValue": 10
+			}
+		},
+		"variables": {
+			"timeadd": {
+				"type": "Integer",
+				"defaultValue": 5
+			}
+		},
 		"annotations": []
 	}
 }
