@@ -36,7 +36,7 @@
 				"typeProperties": {
 					"source": {
 						"type": "AzureSqlSource",
-						"sqlReaderQuery": "SELECT 1 FROM [SalesLT].[Customer]",
+						"sqlReaderQuery": "SELECT top 10 * FROM [SalesLT].[Customer]",
 						"queryTimeout": "02:00:00",
 						"partitionOption": "None"
 					},
