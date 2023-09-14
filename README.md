@@ -1,0 +1,2 @@
+# Azure-TrainingPractice
+Azure-TrainingPractice
