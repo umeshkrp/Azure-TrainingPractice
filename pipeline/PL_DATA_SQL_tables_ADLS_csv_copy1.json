@@ -1,5 +1,5 @@
 {
-	"name": "PL_DATA_SQL_tables_ABLB_csv",
+	"name": "PL_DATA_SQL_tables_ADLS_csv_copy1",
 	"properties": {
 		"description": "ADF Piplelines to Migrate Data from Azure SQL Server to ADLS Container",
 		"activities": [
