@@ -1,0 +1,27 @@
+{
+	"name": "TRGR_SCHD",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "PL_DEMO",
+					"type": "PipelineReference"
+				},
+				"parameters": {
+					"timeinterval": 5
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 365,
+				"startTime": "2023-09-14T18:21:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
