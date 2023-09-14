@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
+				"fileName": "data_01e8e56b-02c6-44bd-8ed2-de1421e6e04b_5ae365e4-6bcc-4ea0-9496-671381eafec9.txt",
 				"container": "spooledtables"
 			},
 			"columnDelimiter": ",",
