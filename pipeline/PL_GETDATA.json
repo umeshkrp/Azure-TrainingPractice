@@ -36,8 +36,6 @@
 			{
 				"name": "Filter1",
 				"type": "Filter",
-				"state": "Inactive",
-				"onInactiveMarkAs": "Succeeded",
 				"dependsOn": [
 					{
 						"activity": "Get Metadata1",
@@ -50,6 +48,10 @@
 				"typeProperties": {
 					"items": {
 						"value": "@activity('Get Metadata1').output.childItems",
+						"type": "Expression"
+					},
+					"condition": {
+						"value": "@item().itemType=='File'",
 						"type": "Expression"
 					}
 				}
