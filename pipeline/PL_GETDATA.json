@@ -51,7 +51,7 @@
 						"type": "Expression"
 					},
 					"condition": {
-						"value": "@item().itemType=='File'\n",
+						"value": "@item().type='File'\n",
 						"type": "Expression"
 					}
 				}
