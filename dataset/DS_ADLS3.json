@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": "parentfolder",
 				"fileSystem": "spoolfiles"
 			},
 			"columnDelimiter": ",",
