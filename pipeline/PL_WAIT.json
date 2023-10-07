@@ -18,6 +18,12 @@
 		"parameters": {
 			"TimeToWait": {
 				"type": "Int"
+			},
+			"A": {
+				"type": "int"
+			},
+			"B": {
+				"type": "int"
 			}
 		},
 		"annotations": []
